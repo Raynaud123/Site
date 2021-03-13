@@ -45,3 +45,9 @@
     padding: 0 80px;
     margin: auto;
 }
+/*Home styling*/
+.home 
+{
+    display: flex;
+    background: url();
+}
