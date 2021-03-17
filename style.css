@@ -7,6 +7,10 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 .navbar 
 {
     position: fixed;
@@ -136,7 +140,7 @@ section
 {
     padding: 100px 0;
 }
-.about , .services, .skills, .projects, .contact
+.about , .services, .skills, .projects, .contact, footer
 {
     font-family: 'Poppins', sans-serif;
 }
@@ -524,6 +528,13 @@ section .title::after
 {
     color: crimson;
     background: none;
+}
+/* footer */
+footer
+{
+    background: #111;
+    padding: 20px 23px;
+    color: white;
 }
 /* responsive behaviour */
 @media(max-width : 1300px)
