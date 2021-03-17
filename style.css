@@ -136,7 +136,7 @@ section
 {
     padding: 100px 0;
 }
-.about , .services
+.about , .services, .skills
 {
     font-family: 'Poppins', sans-serif;
 }
@@ -176,7 +176,7 @@ section .title::after
 {
     content: "Who am I";
 }
-.about .about-content, .services .serv-content
+.about .about-content, .services .serv-content, .skills .skills-content
 {
     display: flex;
     flex-wrap: wrap;
@@ -284,7 +284,60 @@ section .title::after
     margin: 10px 0 7px 0;
 }
 /* Skills */
-
+.skills .title::after
+{
+    content: "What I know";
+}
+.skills .skills-content .column
+{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .right .bars
+{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info 
+{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span
+{
+    font-weight: 500;
+    font-size: 18px;
+} 
+.skills .skills-content .right .line
+{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content .right .line::before
+{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills .skills-content .right .html::before
+{
+    width: 90%;
+}
+.skills .skills-content .right .css::before
+{
+    width: 60%;
+}
 /* responsive behaviour */
 @media(max-width : 1300px)
 {
@@ -380,6 +433,11 @@ section .title::after
     {
         width: calc(50% - 10px);
         margin-bottom: 20px;
+    }
+    .skills .skills-content .column
+    {
+        width: 100%;
+        margin-bottom: 35px;
     }
 }
 @media(max-width : 690px)
