@@ -227,6 +227,7 @@ section .title::after
 .about .about-content .right 
 {
     width: 55%;
+    height: 100%;
 }
 .about .about-content .right .text 
 {
@@ -241,6 +242,7 @@ section .title::after
 .about .about-content .right p
 {
     text-align: justify;
+    line-height: 1.6;
 }
 .about .about-content .right a
 {
@@ -370,6 +372,14 @@ section .title::after
 {
     width: 60%;
 }
+.skills .skills-content .right .javascript::before
+{
+    width: 70%;
+}
+.skills .skills-content .right .mongo::before
+{
+    width: 50%;
+}
 /* projects*/
 .projects .title::after
 {
@@ -404,6 +414,11 @@ section .title::after
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+}
+.projects .carousel .card a
+{
+    text-decoration: none;
+    color: white;
 }
 .projects .carousel .card img
 {

@@ -49,7 +49,7 @@ $(document).ready(()=>{
         loop: true,
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
-        respoonsive: {
+        responsive: {
             0:{
                 items: 1,
                 nav: false
