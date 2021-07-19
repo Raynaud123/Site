@@ -4,3 +4,27 @@ height: 100vh;
 margin: 0;
 padding: 0;
 }
+a
+{
+    text-decoration: none;
+}
+.menu
+{
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+.items
+{
+    max-width: 980px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+#logo
+{
+    height: 50px;
+}
