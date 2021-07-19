@@ -1,8 +1,10 @@
 body
 {
-height: 100vh;
+min-height: 100vh;
 margin: 0;
 padding: 0;
+display: flex;
+flex-direction: column;
 }
 a
 {
@@ -27,4 +29,9 @@ a
 #logo
 {
     height: 50px;
+}
+.landing 
+{
+    height: 100vh;
+    margin-top: 50px;
 }
