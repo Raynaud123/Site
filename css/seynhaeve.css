@@ -5,15 +5,19 @@ margin: 0;
 padding: 0;
 display: flex;
 flex-direction: column;
+color: #2B3563;
+font-family: "Space Mono";
 }
 a
 {
     text-decoration: none;
+    color: #2B3563;
+    font-family: "Space Mono", sans-serif;
 }
 .menu
 {
     width: 100%;
-    background-color: red;
+    background-color: #bfc2d0;
     position: fixed;
     display: flex;
     justify-content: space-around;
@@ -21,10 +25,11 @@ a
 .items
 {
     max-width: 980px;
-    background-color: yellow;
+    background-color: #bfc2d0;
     display: flex;
     justify-content: space-between;
     width: 80%;
+    align-items: center;
 }
 #logo
 {
@@ -34,4 +39,20 @@ a
 {
     height: 100vh;
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.landing-items
+{
+    margin: 10%;
+}
+.about h1, .about h2, .about p 
+{
+    text-align: center;
+}
+.video 
+{
+    display: flex;
+    justify-content: center;
 }
